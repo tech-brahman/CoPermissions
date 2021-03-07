@@ -5,6 +5,21 @@ Lightweight Kotlin coroutine for requesting Android runtime permissions. Use it 
 
 # Usage
 
+## Add it in your root build.gradle at the end of repositories:
+	allprojects {
+		repositories {
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+
+## Add the dependency
+
+	dependencies {
+	        implementation 'com.github.tech-brahman:CoPermissions:0.1.0'
+	}
+	
+
 ## Request single permission inside a coroutine
 	suspend fun yourFunc(){
       val yourActivity = this@MainActivity
