@@ -1,5 +1,5 @@
 # CoPermissions
-Lightweight Kotlin coroutine for requesting Android runtime permissions. Use it direclty in your suspend functions without overriding onPermissionResult
+Lightweight Kotlin coroutine for requesting Android runtime permissions. Use it directly in your suspend functions without overriding onPermissionResult
 
 
 
@@ -39,7 +39,7 @@ Lightweight Kotlin coroutine for requesting Android runtime permissions. Use it 
     
 
 
-## Request multiple permission inside a coroutine
+## Request multiple permissions inside a coroutine
 
     suspend fun yourFunc(){
       val yourActivity = this@MainActivity
