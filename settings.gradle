@@ -1,0 +1,3 @@
+include ':kotpermission'
+include ':sample'
+rootProject.name = "CoroutinePermissions"
